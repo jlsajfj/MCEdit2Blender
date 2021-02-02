@@ -1,3 +1,6 @@
+<!--
+I think I might have bitten off more than I can chew here. I don't have experience in blender, so this project will be put on temporary hiatus
+-->
 # MCEdit2Blender
 A Blender addon to quickly import Minecraft worlds using MCEdit .schematic files.
 

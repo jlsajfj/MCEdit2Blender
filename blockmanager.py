@@ -1,6 +1,10 @@
 import bpy
 import sys
 import importlib
+
+import os
+print(os.getcwd())
+
 import blocks
 import blocks.Block
 importlib.reload(blocks.Block)
