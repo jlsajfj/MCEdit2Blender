@@ -1,6 +1,5 @@
 import bpy
 import sys
-sys.path.append("/Users/connor/git/MCEdit2Blender/")
 import importlib
 import blocks
 import blocks.Block

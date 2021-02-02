@@ -1,15 +1,16 @@
-import math
 import bpy
+import importlib
+import math
 import mathutils
 from bpy.props import (StringProperty)
 from bpy_extras.io_utils import ImportHelper
 from bpy.types import Operator
-import nbt
-import importlib
 import blockmanager
+import nbt
 importlib.reload(blockmanager)
 from blockmanager import BlockManager
- 
+
+
 class SchematicImporter(Operator, ImportHelper) :
     bl_idname = "import.schematic"
     bl_label = "Import Schematic"
